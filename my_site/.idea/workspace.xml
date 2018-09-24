@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff163c3-e019-47ba-a2fb-421b62f8a801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog/templates/blog/post_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +14,7 @@
     <session id="-1676592363">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="2" />
@@ -54,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="2244">
               <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
@@ -104,7 +96,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="123" />
     <option name="width" value="1440" />
@@ -188,8 +180,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24880762" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -250,7 +241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="2244">
           <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
