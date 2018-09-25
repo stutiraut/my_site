@@ -2,7 +2,14 @@ from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
 from .models import Post
 from .forms import PostForm
+from .forms	import EmailPostForm
 from django.shortcuts import redirect
+from django.core.paginator import Paginator,EmptyPage ,\
+    PageNotAnInteger
+
+
+
+
 
 def post_list(request):
     posts = Post.objects.filter(publish__lte=timezone.now()).order_by('publish')
@@ -26,6 +33,8 @@ def post_new(request):
     else:
         form = PostForm()
     return render(request, 'blog/post_edit.html', {'form': form})
+
+
 
 def post_edit(request, pk):
     post = get_object_or_404(Post, pk=pk)
