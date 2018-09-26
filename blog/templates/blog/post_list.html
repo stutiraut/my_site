@@ -1,6 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+
     {% for post in posts %}
 
              <div class="post">
@@ -10,5 +11,7 @@
                  <p> {{ post.body }}</p>
                 <p>{{ post.text|linebreaksbr }}</p>
              </div>
+
     {% endfor %}
+    	{%	include	"pagination.html"	with	page=posts	%}
 {% endblock %}
