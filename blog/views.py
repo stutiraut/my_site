@@ -7,9 +7,6 @@ from django.shortcuts import redirect
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
-
-
-
 def post_list(request):
     object_list = Post.published.all()
     paginator = Paginator(object_list, 3) # 3 posts in each page
@@ -59,3 +56,5 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
+
+
