@@ -6,10 +6,17 @@
 
              <div class="post">
                 <div class="date">
-                <p>published: {{ post.publish }}</p></div>
-                 <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-                 <p> {{ post.body }}</p>
-                <p>{{ post.text|linebreaksbr }}</p>
+                {{ post.published_date }}
+            </div>
+            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+           	<p>{{ post.text|linebreaksbr }}</p><span style="background-color:yellow"><b>Watson Says:</b></span>
+           	<p><i><u>Translation:</u></i> {{ post.obj2}}</p>
+           	<p>Word Count: {{ post.w_count}} |
+           	Letter Count: {{ post.c_count}}</p>
+            <p>{% if post.tonename1 %}Tone name: {{ post.tonename1 }} | Score:{{ post.score1 }}{% endif %}</p>
+           <p>{% if post.tonename1 %}Tone name: {{ post.tonename2 }} | Score:{{ post.score2 }} {% endif %}</p>
+
+
              </div>
 
     {% endfor %}
